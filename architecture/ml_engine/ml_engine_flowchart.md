@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Incoming POST: /api/v1/ml/predict] --> B[Data Parser]
     B --> C[Extract Weather: Temp, Humidity, Condition]
@@ -10,3 +11,4 @@ graph TD
     G --> I[Result Aggregation]
     H --> I
     I --> J[Format Output: 7-14 Day Predicted kWh JSON]
+```

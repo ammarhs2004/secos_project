@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant F as Frontend
     participant B as Backend
@@ -27,3 +28,4 @@ sequenceDiagram
     B->>DB: Query average consumption for device type
     DB-->>B: Returns device consumption metrics
     B->>F: Push behavioral recommendation & energy-saving insight
+```
